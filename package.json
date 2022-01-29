@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Week 4/app.js",
-    "start-server": "node Week 4/app.js"
+    "start": "node Week_4/app.js",
+    "start-server": "node Week_4/app.js"
   },
   "author": "Richard Erickson",
   "license": "ISC",
