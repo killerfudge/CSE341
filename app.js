@@ -14,6 +14,8 @@ const User = require('./models/user');
 const MONGODB_URI =
   'mongodb+srv://Killerfudge:Sp1lledM1lk@cse341-database.sdrlp.mongodb.net/prove';
 
+const PORT = process.env.PORT || 3000;
+
 const app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,
@@ -68,7 +70,7 @@ app.use(errorController.get404);
 mongoose
   .connect(MONGODB_URI)
   .then(result => {
-    app.listen(3000);
+    app.listen(PORT);
   })
   .catch(err => {
     console.log(err);
