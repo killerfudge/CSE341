@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\controllers"
+    "\\controllers",
+    "\\models",
+    "\\views",
+    "\\views\\auth"
   ],
-  "SelectedNode": "\\controllers\\auth.js",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
